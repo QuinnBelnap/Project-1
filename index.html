@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The DOM</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="main">
+
+
+
+		<h1>Chaotic Quiz!</h1>
+
+		<form>
+			<p>Which one of these is a soup?</p>
+
+			<input type="radio" name="soup" value="7" checked>
+			<label>Potato</label><br>
+
+			<input type="radio" name="soup" value="10">
+			<label>Cereal</label><br>
+
+			<input type="radio" name="soup" value="3">
+			<label>Squid</label><br>
+
+			<input type="radio" name="soup" value="0">
+			<label>Penguin</label><br>
+
+			<hr>
+
+			<p>Are squirrels trying to take over the world?</p>
+
+			<input type="radio" name="world" value="0" checked>
+			<label>That's a dumb question.</label><br>
+
+			<input type="radio" name="world" value="8">
+			<label>No, llamas are.</label><br>
+
+			<input type="radio" name="world" value="10">
+			<label>Yes definitely.</label><br>
+
+			<input type="radio" name="world" value="2">
+			<label>*squirrel noises for no*</label>
+
+			<hr>
+
+			<p>When did you you take this quiz?</p>
+
+			<input type="radio" name="quiz" value="10" checked>
+			<label>Now</label><br>
+
+			<input type="radio" name="quiz" value="4">
+			<label>Tomorrow</label><br>
+
+			<input type="radio" name="quiz" value="4">
+			<label>Yesterday</label><br>
+
+			<input type="radio" name="quiz" value="-20">
+			<label>A lightyear ago</label>
+
+			<hr>
+
+			<p>What is the best?</p>
+
+			<input type="radio" name="best" value="0" checked>
+			<label>Not me</label><br>
+
+			<input type="radio" name="best" value="0">
+			<label>Not you</label><br>
+
+			<input type="radio" name="best" value="10">
+			<label>The greatest</label><br>
+
+			<input type="radio" name="best" value="5">
+			<label>One of the above.</label>
+
+			<hr>
+
+			<p>What is the moon?</p>
+
+			<input type="radio" name="moon" value="7" checked>
+			<label>Cheese</label><br>
+
+			<input type="radio" name="moon" value="0">
+			<label>Cookie</label><br>
+
+			<input type="radio" name="moon" value="1">
+			<label>Eyeball</label><br>
+
+			<input type="radio" name="moon" value="10">
+			<label>Rock</label>
+
+			<hr>
+
+			<p>Where are you?</p>
+
+			<input type="radio" name="you" value="3" checked>
+			<label>Over there</label><br>
+
+			<input type="radio" name="you" value="0">
+			<label>Under a rock</label><br>
+
+			<input type="radio" name="you" value="10">
+			<label>At a technological device</label><br>
+
+			<input type="radio" name="you" value="2">
+			<label>Sitting on a cloud</label>
+
+			<hr>
+
+			<p>Jeopardy</p>
+
+			<input type="radio" name="jeo" value="10" checked>
+			<label>What is a gameshow?</label><br>
+
+			<input type="radio" name="jeo" value="8">
+			<label>Isn't that a gameshow?</label><br>
+
+			<input type="radio" name="jeo" value="0">
+			<label>Its a gameshow</label><br>
+
+			<input type="radio" name="jeo" value="5">
+			<label>It's a gameshow</label>
+
+			<hr>
+
+			<p>Water is: </p>
+
+			<input type="radio" name="h2o" value="-5" checked>
+			<label>the best example of an element.</label><br>
+
+			<input type="radio" name="h2o" value="10">
+			<label>completely contradictory.</label><br>
+
+			<input type="radio" name="h2o" value="0">
+			<label>used to dry things.</label><br>
+
+			<input type="radio" name="h2o" value="1">
+			<label>a condiment.</label>
+
+			<hr>
+
+			<p>What is the happiest?</p>
+
+			<input type="radio" name="joy" value="8" checked>
+			<label>Tigger</label><br>
+
+			<input type="radio" name="joy" value="0">
+			<label>All ducks</label><br>
+
+			<input type="radio" name="joy" value="9s">
+			<label>Donkey</label><br>
+
+			<input type="radio" name="joy" value="10">
+			<label>Banana Joe</label>
+
+			<hr>
+
+			<p>How do I code a website?</p>
+
+			<input type="radio" name="code" value="10" checked>
+			<label>Type</label><br>
+
+			<input type="radio" name="code" value="7">
+			<label>Ask someone else to do it</label><br>
+
+			<input type="radio" name="code" value="0">
+			<label>Eat all of the food</label><br>
+
+			<input type="radio" name="code" value="2">
+			<label>Call mom</label>
+
+			<hr>
+
+
+			<p>Submit your answer by clicking the button below...</p>
+			<input type="button" onClick="submitAns()" value="Submit Answer">
+		</form>
+
+	<p><strong>Result:</strong> <span class="user-result"></span></p>
+
+	
+
+
+
+
+
+
+
+	</div>
+<script src="js/main.js"></script>
+</body>
+</html>
